@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C1F44CB20C278AA00B3C03B /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1F44CA20C278AA00B3C03B /* launchImage.png */; };
+		1C1F44CD20C28A3000B3C03B /* ShishaPreparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F44CC20C28A3000B3C03B /* ShishaPreparation.swift */; };
+		1C1F44CF20C29E5A00B3C03B /* ShishaTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F44CE20C29E5A00B3C03B /* ShishaTimer.swift */; };
+		1C1F44D120C2A54700B3C03B /* vintage-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C1F44D020C2A54600B3C03B /* vintage-wallpaper.jpg */; };
+		1C1F44D320C2FED600B3C03B /* UISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F44D220C2FED600B3C03B /* UISettings.swift */; };
+		1CABC09A20BF239A005A2C1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CABC09920BF239A005A2C1F /* AppDelegate.swift */; };
+		1CABC09C20BF239A005A2C1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CABC09B20BF239A005A2C1F /* ViewController.swift */; };
+		1CABC09F20BF239A005A2C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CABC09D20BF239A005A2C1F /* Main.storyboard */; };
+		1CABC0A120BF239A005A2C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CABC0A020BF239A005A2C1F /* Assets.xcassets */; };
+		1CABC0A420BF239A005A2C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CABC0A220BF239A005A2C1F /* LaunchScreen.storyboard */; };
+		1CABC0AF20BF239A005A2C1F /* ShishaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CABC0AE20BF239A005A2C1F /* ShishaTests.swift */; };
+		1CABC0BA20BF239A005A2C1F /* ShishaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CABC0B920BF239A005A2C1F /* ShishaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CABC0AB20BF239A005A2C1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CABC08E20BF239A005A2C1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CABC09520BF239A005A2C1F;
+			remoteInfo = Shisha;
+		};
+		1CABC0B620BF239A005A2C1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CABC08E20BF239A005A2C1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CABC09520BF239A005A2C1F;
+			remoteInfo = Shisha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C1F44CA20C278AA00B3C03B /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchImage.png; path = ../../../../../Downloads/launchImage.png; sourceTree = "<group>"; };
+		1C1F44CC20C28A3000B3C03B /* ShishaPreparation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShishaPreparation.swift; sourceTree = "<group>"; };
+		1C1F44CE20C29E5A00B3C03B /* ShishaTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShishaTimer.swift; sourceTree = "<group>"; };
+		1C1F44D020C2A54600B3C03B /* vintage-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "vintage-wallpaper.jpg"; path = "../../../../../Downloads/vintage-wallpaper.jpg"; sourceTree = "<group>"; };
+		1C1F44D220C2FED600B3C03B /* UISettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISettings.swift; sourceTree = "<group>"; };
+		1CABC09620BF239A005A2C1F /* Shisha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shisha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CABC09920BF239A005A2C1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CABC09B20BF239A005A2C1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CABC09E20BF239A005A2C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CABC0A020BF239A005A2C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CABC0A320BF239A005A2C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CABC0A520BF239A005A2C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CABC0AA20BF239A005A2C1F /* ShishaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShishaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CABC0AE20BF239A005A2C1F /* ShishaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShishaTests.swift; sourceTree = "<group>"; };
+		1CABC0B020BF239A005A2C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CABC0B520BF239A005A2C1F /* ShishaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShishaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CABC0B920BF239A005A2C1F /* ShishaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShishaUITests.swift; sourceTree = "<group>"; };
+		1CABC0BB20BF239A005A2C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CABC09320BF239A005A2C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CABC0A720BF239A005A2C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CABC0B220BF239A005A2C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CABC08D20BF239A005A2C1F = {
+			isa = PBXGroup;
+			children = (
+				1CABC09820BF239A005A2C1F /* Shisha */,
+				1CABC0AD20BF239A005A2C1F /* ShishaTests */,
+				1CABC0B820BF239A005A2C1F /* ShishaUITests */,
+				1CABC09720BF239A005A2C1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CABC09720BF239A005A2C1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CABC09620BF239A005A2C1F /* Shisha.app */,
+				1CABC0AA20BF239A005A2C1F /* ShishaTests.xctest */,
+				1CABC0B520BF239A005A2C1F /* ShishaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CABC09820BF239A005A2C1F /* Shisha */ = {
+			isa = PBXGroup;
+			children = (
+				1C1F44D220C2FED600B3C03B /* UISettings.swift */,
+				1C1F44CE20C29E5A00B3C03B /* ShishaTimer.swift */,
+				1C1F44CC20C28A3000B3C03B /* ShishaPreparation.swift */,
+				1CABC09920BF239A005A2C1F /* AppDelegate.swift */,
+				1CABC09B20BF239A005A2C1F /* ViewController.swift */,
+				1CABC09D20BF239A005A2C1F /* Main.storyboard */,
+				1CABC0A020BF239A005A2C1F /* Assets.xcassets */,
+				1CABC0A220BF239A005A2C1F /* LaunchScreen.storyboard */,
+				1C1F44D020C2A54600B3C03B /* vintage-wallpaper.jpg */,
+				1C1F44CA20C278AA00B3C03B /* launchImage.png */,
+				1CABC0A520BF239A005A2C1F /* Info.plist */,
+			);
+			path = Shisha;
+			sourceTree = "<group>";
+		};
+		1CABC0AD20BF239A005A2C1F /* ShishaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CABC0AE20BF239A005A2C1F /* ShishaTests.swift */,
+				1CABC0B020BF239A005A2C1F /* Info.plist */,
+			);
+			path = ShishaTests;
+			sourceTree = "<group>";
+		};
+		1CABC0B820BF239A005A2C1F /* ShishaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CABC0B920BF239A005A2C1F /* ShishaUITests.swift */,
+				1CABC0BB20BF239A005A2C1F /* Info.plist */,
+			);
+			path = ShishaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CABC09520BF239A005A2C1F /* Shisha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CABC0BE20BF239A005A2C1F /* Build configuration list for PBXNativeTarget "Shisha" */;
+			buildPhases = (
+				1CABC09220BF239A005A2C1F /* Sources */,
+				1CABC09320BF239A005A2C1F /* Frameworks */,
+				1CABC09420BF239A005A2C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shisha;
+			productName = Shisha;
+			productReference = 1CABC09620BF239A005A2C1F /* Shisha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CABC0A920BF239A005A2C1F /* ShishaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CABC0C120BF239A005A2C1F /* Build configuration list for PBXNativeTarget "ShishaTests" */;
+			buildPhases = (
+				1CABC0A620BF239A005A2C1F /* Sources */,
+				1CABC0A720BF239A005A2C1F /* Frameworks */,
+				1CABC0A820BF239A005A2C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CABC0AC20BF239A005A2C1F /* PBXTargetDependency */,
+			);
+			name = ShishaTests;
+			productName = ShishaTests;
+			productReference = 1CABC0AA20BF239A005A2C1F /* ShishaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CABC0B420BF239A005A2C1F /* ShishaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CABC0C420BF239A005A2C1F /* Build configuration list for PBXNativeTarget "ShishaUITests" */;
+			buildPhases = (
+				1CABC0B120BF239A005A2C1F /* Sources */,
+				1CABC0B220BF239A005A2C1F /* Frameworks */,
+				1CABC0B320BF239A005A2C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CABC0B720BF239A005A2C1F /* PBXTargetDependency */,
+			);
+			name = ShishaUITests;
+			productName = ShishaUITests;
+			productReference = 1CABC0B520BF239A005A2C1F /* ShishaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CABC08E20BF239A005A2C1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mattias Careem";
+				TargetAttributes = {
+					1CABC09520BF239A005A2C1F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1CABC0A920BF239A005A2C1F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1CABC09520BF239A005A2C1F;
+					};
+					1CABC0B420BF239A005A2C1F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1CABC09520BF239A005A2C1F;
+					};
+				};
+			};
+			buildConfigurationList = 1CABC09120BF239A005A2C1F /* Build configuration list for PBXProject "Shisha" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CABC08D20BF239A005A2C1F;
+			productRefGroup = 1CABC09720BF239A005A2C1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CABC09520BF239A005A2C1F /* Shisha */,
+				1CABC0A920BF239A005A2C1F /* ShishaTests */,
+				1CABC0B420BF239A005A2C1F /* ShishaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CABC09420BF239A005A2C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1F44CB20C278AA00B3C03B /* launchImage.png in Resources */,
+				1C1F44D120C2A54700B3C03B /* vintage-wallpaper.jpg in Resources */,
+				1CABC0A420BF239A005A2C1F /* LaunchScreen.storyboard in Resources */,
+				1CABC0A120BF239A005A2C1F /* Assets.xcassets in Resources */,
+				1CABC09F20BF239A005A2C1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CABC0A820BF239A005A2C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CABC0B320BF239A005A2C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CABC09220BF239A005A2C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1F44CD20C28A3000B3C03B /* ShishaPreparation.swift in Sources */,
+				1C1F44CF20C29E5A00B3C03B /* ShishaTimer.swift in Sources */,
+				1CABC09C20BF239A005A2C1F /* ViewController.swift in Sources */,
+				1CABC09A20BF239A005A2C1F /* AppDelegate.swift in Sources */,
+				1C1F44D320C2FED600B3C03B /* UISettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CABC0A620BF239A005A2C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CABC0AF20BF239A005A2C1F /* ShishaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CABC0B120BF239A005A2C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CABC0BA20BF239A005A2C1F /* ShishaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CABC0AC20BF239A005A2C1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CABC09520BF239A005A2C1F /* Shisha */;
+			targetProxy = 1CABC0AB20BF239A005A2C1F /* PBXContainerItemProxy */;
+		};
+		1CABC0B720BF239A005A2C1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CABC09520BF239A005A2C1F /* Shisha */;
+			targetProxy = 1CABC0B620BF239A005A2C1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CABC09D20BF239A005A2C1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CABC09E20BF239A005A2C1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CABC0A220BF239A005A2C1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CABC0A320BF239A005A2C1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CABC0BC20BF239A005A2C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CABC0BD20BF239A005A2C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CABC0BF20BF239A005A2C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shisha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MyCompany.Shisha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CABC0C020BF239A005A2C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shisha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MyCompany.Shisha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CABC0C220BF239A005A2C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShishaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MyCompany.ShishaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shisha.app/Shisha";
+			};
+			name = Debug;
+		};
+		1CABC0C320BF239A005A2C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShishaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MyCompany.ShishaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shisha.app/Shisha";
+			};
+			name = Release;
+		};
+		1CABC0C520BF239A005A2C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShishaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MyCompany.ShishaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shisha;
+			};
+			name = Debug;
+		};
+		1CABC0C620BF239A005A2C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShishaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MyCompany.ShishaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shisha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CABC09120BF239A005A2C1F /* Build configuration list for PBXProject "Shisha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CABC0BC20BF239A005A2C1F /* Debug */,
+				1CABC0BD20BF239A005A2C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CABC0BE20BF239A005A2C1F /* Build configuration list for PBXNativeTarget "Shisha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CABC0BF20BF239A005A2C1F /* Debug */,
+				1CABC0C020BF239A005A2C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CABC0C120BF239A005A2C1F /* Build configuration list for PBXNativeTarget "ShishaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CABC0C220BF239A005A2C1F /* Debug */,
+				1CABC0C320BF239A005A2C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CABC0C420BF239A005A2C1F /* Build configuration list for PBXNativeTarget "ShishaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CABC0C520BF239A005A2C1F /* Debug */,
+				1CABC0C620BF239A005A2C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CABC08E20BF239A005A2C1F /* Project object */;
+}

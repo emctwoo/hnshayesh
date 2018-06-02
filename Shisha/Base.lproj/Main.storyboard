@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GeezaPro.ttc">
+            <string>GeezaPro</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Shisha" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pF-N3-1vq">
+                                <rect key="frame" x="187.66666666666666" y="476" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vintage-wallpaper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Vbd-Aq-hUC">
+                                <rect key="frame" x="-362.66666666666669" y="44" width="1100.3333333333333" height="734"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Vbd-Aq-hUC" secondAttribute="height" multiplier="1600:1067" id="sGG-uK-dwP"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQ4-q6-RUu">
+                                <rect key="frame" x="125.66666666666669" y="346" width="124" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="0Tw-yO-23l"/>
+                                    <constraint firstAttribute="width" constant="124" id="Cd6-ie-DGg"/>
+                                </constraints>
+                                <state key="normal" title="Having Shisha..." image="launchImage.png"/>
+                                <connections>
+                                    <action selector="clickMainButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Svr-Qb-W3Q"/>
+                                    <action selector="exitMainButton:" destination="BYZ-38-t0r" eventType="touchDragExit" id="KMH-es-5zG"/>
+                                    <action selector="reEnterMainButton:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="cUT-1C-pXF"/>
+                                    <action selector="touchMainButton:" destination="BYZ-38-t0r" eventType="touchDown" id="sLw-ri-Uye"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vbd-Aq-hUC" secondAttribute="bottom" id="00x-vI-gKJ"/>
+                            <constraint firstItem="Vbd-Aq-hUC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Wv-PN-ZsC"/>
+                            <constraint firstItem="2pF-N3-1vq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YIH-2n-62S"/>
+                            <constraint firstItem="eQ4-q6-RUu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dM1-mK-CdB"/>
+                            <constraint firstItem="Vbd-Aq-hUC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dZt-6D-LSb"/>
+                            <constraint firstItem="eQ4-q6-RUu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gsP-7R-Bx3"/>
+                            <constraint firstItem="Vbd-Aq-hUC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hup-of-REn"/>
+                            <constraint firstItem="2pF-N3-1vq" firstAttribute="top" secondItem="eQ4-q6-RUu" secondAttribute="bottom" constant="10" id="qXH-Ka-qcX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="shishaStatusField" destination="2pF-N3-1vq" id="G01-Va-UDk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="31.199999999999999" y="31.773399014778327"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchImage.png" width="892" height="1280"/>
+        <image name="vintage-wallpaper.jpg" width="1600" height="1067"/>
+    </resources>
+</document>
