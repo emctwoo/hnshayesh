@@ -14,6 +14,6 @@ class ShishaTimer {
     //private var timeDidPressHavingShishaButton: Date
     
     init () {
-        // This timer is intended for resetting the Shisha button. 
+        // This timer is intended for resetting the Shisha button. A slight alteration.
     }
 }
