@@ -13,5 +13,7 @@ class ShishaTimer {
     //private defaultResetShishaButtonTime: TimeInterval = 30 * 60
     //private var timeDidPressHavingShishaButton: Date
     
-    init () {}
+    init () {
+        // This timer is intended for resetting the Shisha button. 
+    }
 }
